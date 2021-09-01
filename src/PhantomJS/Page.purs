@@ -26,13 +26,13 @@ import Prelude
 import Data.Foldable (class Foldable, foldMap)
 import Data.Function.Uncurried (Fn3, runFn3)
 import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Show (genericShow)
 import Data.Maybe (Maybe(..))
 import Data.Nullable (Nullable)
 import Data.Tuple (Tuple(..))
 import Effect.Aff (Aff, Fiber, forkAff)
 import Effect.Aff.Compat (EffectFnAff, fromEffectFnAff)
 import Foreign (unsafeToForeign, Foreign)
+import Data.Show.Generic (genericShow)
 
 type URL = String
 type FilePath = String

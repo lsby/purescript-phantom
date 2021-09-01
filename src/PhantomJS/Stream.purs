@@ -16,13 +16,13 @@ module PhantomJS.Stream
 import Prelude
 
 import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Show (genericShow)
 import Data.Maybe (Maybe(..))
 import Data.TextEncoder (Encoding)
 import Effect.Aff (Aff)
 import Effect.Aff.Compat (EffectFnAff, fromEffectFnAff)
 import Foreign (unsafeToForeign, Foreign)
 import PhantomJS.File (FileMode, FilePath, toForeignFileMode)
+import Data.Show.Generic (genericShow)
 
 -- http://stackoverflow.com/questions/8509339/what-is-the-most-common-encoding-of-each-language
 -- http://www.iana.org/assignments/character-sets/character-sets.xhtml

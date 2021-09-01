@@ -11,3 +11,11 @@
 /purescript-docker
 /.npm
 /.bash_history
+/.*
+!/.gitignore
+!/.eslintrc.json
+!/.travis.yml
+/bower_components/
+/node_modules/
+/output/
+package-lock.json

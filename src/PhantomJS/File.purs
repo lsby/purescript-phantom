@@ -20,11 +20,11 @@ module PhantomJS.File
 import Prelude
 
 import Data.Generic.Rep (class Generic)
-import Data.Generic.Rep.Show (genericShow)
 import Data.Time.Duration (Milliseconds)
 import Effect.Aff (Aff)
 import Effect.Aff.Compat (EffectFnAff, fromEffectFnAff)
 import Foreign (unsafeToForeign, Foreign)
+import Data.Show.Generic (genericShow)
 
 type FilePath = String
 type FileContent = String
